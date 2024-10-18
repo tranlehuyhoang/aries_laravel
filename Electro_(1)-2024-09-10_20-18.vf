@@ -1,0 +1,6566 @@
+{
+  "version": {
+    "_version": 11,
+    "autoSaveFromRestore": false,
+    "canvasTemplates": [
+      {
+        "id": "sg9zy34i0",
+        "name": "Basic Conversation Path",
+        "color": "#5b9fd7",
+        "nodeIDs": [
+          "643872d482cf9d2273b905df",
+          "643872d482cf9d2273b905e1",
+          "643872d482cf9d2273b905e3"
+        ]
+      },
+      {
+        "id": "5bgq3341p",
+        "name": "Save Information",
+        "color": "#000000",
+        "nodeIDs": [
+          "6438784f82cf9d2273b90dd4",
+          "6438784f82cf9d2273b90dd6",
+          "6438784f82cf9d2273b90dd8",
+          "6438784f82cf9d2273b90dda"
+        ]
+      },
+      {
+        "id": "byav33785",
+        "name": "API Call Example",
+        "color": null,
+        "nodeIDs": [
+          "645d718f83103cca7a3cecc1",
+          "645d718f83103cca7a3cecc3",
+          "645d718f83103cca7a3cecc5",
+          "645d718f83103cca7a3cecc7"
+        ]
+      }
+    ],
+    "components": [],
+    "creatorID": 281594,
+    "manualSave": false,
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [
+        {
+          "key": "4k98m37to",
+          "name": "name",
+          "color": "#56b365",
+          "inputs": [
+            "dafaef"
+          ],
+          "type": {
+            "value": "Custom"
+          }
+        }
+      ],
+      "intents": [
+        {
+          "key": "VF.YES",
+          "name": "VF.YES",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "VF.NO",
+          "name": "VF.NO",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "f71dt37d6",
+          "name": "shopping",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "mặt hàng",
+              "slots": []
+            },
+            {
+              "text": "ở đây bán gì",
+              "slots": []
+            },
+            {
+              "text": "sản phẩm",
+              "slots": []
+            },
+            {
+              "text": "cửa hàng",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "5x36537d1",
+          "name": "máy tính",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "phụ kiện máy tính",
+              "slots": []
+            },
+            {
+              "text": "máy tính để bàn",
+              "slots": []
+            },
+            {
+              "text": "pc",
+              "slots": []
+            },
+            {
+              "text": "máy tính",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "vw45a37t4",
+          "name": "máy tính và laptop",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "danh mục laptop máy tính",
+              "slots": []
+            },
+            {
+              "text": "các mẫu pc hiện có",
+              "slots": []
+            },
+            {
+              "text": "các mẫu laptop",
+              "slots": []
+            },
+            {
+              "text": "linh kiện laptop",
+              "slots": []
+            },
+            {
+              "text": "có pc không",
+              "slots": []
+            },
+            {
+              "text": "tôi  muốn mua pc",
+              "slots": []
+            },
+            {
+              "text": "laptop",
+              "slots": []
+            },
+            {
+              "text": "tôi muốn mua máy tính",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "l862737zp",
+          "name": "123",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "gia",
+              "slots": []
+            },
+            {
+              "text": "gi",
+              "slots": []
+            },
+            {
+              "text": "giang",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "je6gu3708",
+          "name": "máy tính 1",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "có laptop không",
+              "slots": []
+            },
+            {
+              "text": "tôi muốn mua pc",
+              "slots": []
+            },
+            {
+              "text": "tôi muốn mua laptop",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "y272z376a",
+          "name": "mua sắm",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "mua sắm",
+              "slots": []
+            },
+            {
+              "text": "bán gì",
+              "slots": []
+            },
+            {
+              "text": "tôi muốn mua",
+              "slots": []
+            },
+            {
+              "text": "tôi muốn mua hàng",
+              "slots": []
+            },
+            {
+              "text": "tôi muốn mua hang",
+              "slots": []
+            },
+            {
+              "text": "các mặt hàng đang bán",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "3o7i037rg",
+          "name": "đồng hồ",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "danh mục đồng hồ",
+              "slots": []
+            },
+            {
+              "text": "đồng hồ giá rẻ",
+              "slots": []
+            },
+            {
+              "text": "tôi muốn mua đồng hồ",
+              "slots": []
+            },
+            {
+              "text": "đồng hồ đẹp",
+              "slots": []
+            },
+            {
+              "text": "đồng hồ",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "hca4n3786",
+          "name": "có máy tính không",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "có máy tính không",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "tta8437om",
+          "name": "ví ảo",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "ví ảo",
+              "slots": []
+            },
+            {
+              "text": "ví ảo của trang web này",
+              "slots": []
+            },
+            {
+              "text": "ví electro",
+              "slots": []
+            },
+            {
+              "text": "ví ảo của trang web này là gì",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "s9ajg375q",
+          "name": "authentication",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "đăng nhập",
+              "slots": []
+            },
+            {
+              "text": "đăng ký",
+              "slots": []
+            },
+            {
+              "text": "các hình thức đăng ký",
+              "slots": []
+            },
+            {
+              "text": "các phương thức đăng ký",
+              "slots": []
+            },
+            {
+              "text": "các phương thức đăng nhập",
+              "slots": []
+            },
+            {
+              "text": "các hình thức đăng nhập",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "04di43756",
+          "name": "Các phương thức thanh toán",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "thanh toán như thế nào",
+              "slots": []
+            },
+            {
+              "text": "các cách thanh toán",
+              "slots": []
+            },
+            {
+              "text": "thanh toán",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "vi-VN"
+        ]
+      },
+      "publishing": {
+        "avatar": "https://cm4-production-assets.s3.amazonaws.com/1702174313265-mediamodifier-design-template.png",
+        "color": "#FFB80B",
+        "description": "Xin chào, tôi là chat bot của Electro",
+        "feedback": false,
+        "image": "https://cm4-production-assets.s3.amazonaws.com/1702174299978-cropped-electro-fav-icon-2-32x32.png",
+        "persistence": "localStorage",
+        "position": "right",
+        "spacing": {
+          "side": 30,
+          "bottom": 19
+        },
+        "title": "Electro - Assistants",
+        "watermark": false,
+        "launcher": ""
+      },
+      "platform": "webchat"
+    },
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "Electro (1)",
+        "locales": [
+          "vi-VN"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "f71dt37d6",
+            "name": "shopping",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "mặt hàng",
+                "slots": []
+              },
+              {
+                "text": "ở đây bán gì",
+                "slots": []
+              },
+              {
+                "text": "sản phẩm",
+                "slots": []
+              },
+              {
+                "text": "cửa hàng",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "5x36537d1",
+            "name": "máy tính",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "phụ kiện máy tính",
+                "slots": []
+              },
+              {
+                "text": "máy tính để bàn",
+                "slots": []
+              },
+              {
+                "text": "pc",
+                "slots": []
+              },
+              {
+                "text": "máy tính",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "vw45a37t4",
+            "name": "máy tính và laptop",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "danh mục laptop máy tính",
+                "slots": []
+              },
+              {
+                "text": "các mẫu pc hiện có",
+                "slots": []
+              },
+              {
+                "text": "các mẫu laptop",
+                "slots": []
+              },
+              {
+                "text": "linh kiện laptop",
+                "slots": []
+              },
+              {
+                "text": "có pc không",
+                "slots": []
+              },
+              {
+                "text": "tôi muốn mua pc",
+                "slots": []
+              },
+              {
+                "text": "laptop",
+                "slots": []
+              },
+              {
+                "text": "tôi muốn mua máy tính",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "l862737zp",
+            "name": "123",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "gia",
+                "slots": []
+              },
+              {
+                "text": "gi",
+                "slots": []
+              },
+              {
+                "text": "giang",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "je6gu3708",
+            "name": "máy tính 1",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "có laptop không",
+                "slots": []
+              },
+              {
+                "text": "tôi muốn mua pc",
+                "slots": []
+              },
+              {
+                "text": "tôi muốn mua laptop",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "y272z376a",
+            "name": "mua sắm",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "mua sắm",
+                "slots": []
+              },
+              {
+                "text": "bán gì",
+                "slots": []
+              },
+              {
+                "text": "tôi muốn mua",
+                "slots": []
+              },
+              {
+                "text": "tôi muốn mua hàng",
+                "slots": []
+              },
+              {
+                "text": "tôi muốn mua hang",
+                "slots": []
+              },
+              {
+                "text": "các mặt hàng đang bán",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "3o7i037rg",
+            "name": "đồng hồ",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "danh mục đồng hồ",
+                "slots": []
+              },
+              {
+                "text": "đồng hồ giá rẻ",
+                "slots": []
+              },
+              {
+                "text": "tôi muốn mua đồng hồ",
+                "slots": []
+              },
+              {
+                "text": "đồng hồ đẹp",
+                "slots": []
+              },
+              {
+                "text": "đồng hồ",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "hca4n3786",
+            "name": "có máy tính không",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "có máy tính không",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "tta8437om",
+            "name": "ví ảo",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "ví ảo",
+                "slots": []
+              },
+              {
+                "text": "ví ảo của trang web này",
+                "slots": []
+              },
+              {
+                "text": "ví electro",
+                "slots": []
+              },
+              {
+                "text": "ví ảo của trang web này là gì",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "s9ajg375q",
+            "name": "authentication",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "đăng nhập",
+                "slots": []
+              },
+              {
+                "text": "đăng ký",
+                "slots": []
+              },
+              {
+                "text": "các hình thức đăng ký",
+                "slots": []
+              },
+              {
+                "text": "các phương thức đăng ký",
+                "slots": []
+              },
+              {
+                "text": "các phương thức đăng nhập",
+                "slots": []
+              },
+              {
+                "text": "các hình thức đăng nhập",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "04di43756",
+            "name": "Các phương thức thanh toán",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "thanh toán như thế nào",
+                "slots": []
+              },
+              {
+                "text": "các cách thanh toán",
+                "slots": []
+              },
+              {
+                "text": "thanh toán",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "noteID": null
+          }
+        ],
+        "slots": [
+          {
+            "key": "4k98m37to",
+            "name": "name",
+            "color": "#56b365",
+            "inputs": [
+              "dafaef"
+            ],
+            "type": {
+              "value": "Custom"
+            }
+          }
+        ]
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "655bd4cab52f58001242b541",
+            "storage": {},
+            "variables": {},
+            "diagramID": "655bd4cab52f58001242b541"
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "nonDraftResponsesMap": {},
+        "responseMessagesByDiscriminatorIDMap": {},
+        "responseDiscriminatorsByResponseIDMap": {},
+        "functionDefinitions": {},
+        "referencedResponseIDs": [
+          "66e0446de96fc5000701e0c2",
+          "66e0446de96fc5000701e0c5",
+          "66e0446de96fc5000701e0c8",
+          "66e0446de96fc5000701e0cb",
+          "66e0446de96fc5000701e0ce",
+          "66e0446de96fc5000701e0d1",
+          "66e0446de96fc5000701e0d4",
+          "66e0446de96fc5000701e0d7",
+          "66e0446de96fc5000701e0da",
+          "66e0446de96fc5000701e0dd",
+          "66e0446de96fc5000701e0e0",
+          "66e0446de96fc5000701e0e3",
+          "66e0446de96fc5000701e0e6",
+          "66e0446de96fc5000701e0e9",
+          "66e0446de96fc5000701e0ec",
+          "66e0446de96fc5000701e0ef",
+          "66e0446de96fc5000701e0f2",
+          "66e0446de96fc5000701e0f5"
+        ],
+        "slotsMap": {
+          "4k98m37to": {
+            "key": "4k98m37to",
+            "name": "name",
+            "color": "#56b365",
+            "inputs": [
+              "dafaef"
+            ],
+            "type": {
+              "value": "Custom"
+            }
+          }
+        },
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "projectType": "chat",
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [
+          "f71dt37d6",
+          "rt1l137l7",
+          "vw45a37t4",
+          "5x36537d1",
+          "l862737zp",
+          "je6gu3708",
+          "y272z376a",
+          "3o7i037rg",
+          "hca4n3786",
+          "tta8437om",
+          "s9ajg375q",
+          "04di43756"
+        ],
+        "goToIntentsSet": [],
+        "cmsVariables": {
+          "sessions": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "defaultValue": null
+          }
+        },
+        "entitiesMap": {},
+        "variableMap": {},
+        "intentsMap": {},
+        "requiredEntitiesMap": {}
+      },
+      "settings": {},
+      "platform": "webchat"
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "655bd4cab52f58001242b541"
+      }
+    ],
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory"
+    ],
+    "programResources": {
+      "messages": {
+        "66e0446de96fc5000701e0c2": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "fontWeight": "700",
+                          "text": "Ask any question"
+                        },
+                        {
+                          "text": ", and we'll use the response AI step to provide a response from ChatGPT."
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0c5": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Goodbye!"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0c8": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Tôi là trợ lý ảo ai của cửa hàng Electro, tôi có thể giúp gì cho bạn"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0cb": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Chúng tôi cung cấp các mặt hàng về "
+                        },
+                        {
+                          "italic": true,
+                          "fontWeight": "700",
+                          "text": "máy tính, laptop "
+                        },
+                        {
+                          "text": "đa dạng, đầy đủ cấu hình. Dưới đây là các mặt hàng máy tính mà chúng tôi đang kinh doanh"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0ce": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Chúng tôi cung cấp các loại đồng hồ đa dạng, dưới đây là các sản phẩm đồng hồ đang bán chạy "
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "🤖 "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0d1": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Ví ảo của Electro là một chức năng giúp người dùng có thể thanh toán một cách thuận tiện, bằng cách nạp tiền vào tài khoản bạn có thể sử dụng số dư của ví và thanh toán cho các đơn hàng!"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0d4": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Tại Electro, bạn có thể đăng nhập bằng 3 hình thức: "
+                        },
+                        {
+                          "italic": true,
+                          "text": "Facebook"
+                        },
+                        {
+                          "text": ", "
+                        },
+                        {
+                          "italic": true,
+                          "text": "Google"
+                        },
+                        {
+                          "text": ", email và mật khẩu."
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0d7": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Chọn phương thức đăng ký, đăng nhập?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0da": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Có 3 phương thức thanh toán là:"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "- Thanh toán qua VNpay"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "- Thanh toán qua Ví ảo Electro"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "- Thanh toán khi nhận hàng"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0dd": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Second Option"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0e0": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "How can I help you?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0e3": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "First Option"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0e6": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "What is your name?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0e9": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Hello "
+                        },
+                        {
+                          "text": "{name}"
+                        },
+                        {
+                          "text": " !"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0ec": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Twitter is the best 🐦"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0ef": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Error"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0f2": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "This flow captures a users question and sends it to the OpenAI API"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66e0446de96fc5000701e0f5": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "text": "{response}"
+                        },
+                        {
+                          "text": " "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    "_id": "66e0446d07c0b3b6adc81de6",
+    "updatedAt": "2024-09-10T13:15:47.871Z",
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "655bd4cab52f58001242b541"
+        ],
+        "rootDiagramID": "655bd4cab52f58001242b541",
+        "updatedBy": 281594,
+        "updatedAt": "2024-09-10T13:06:54.152Z"
+      }
+    ],
+    "projectID": "66e0446d07c0b3b6adc81de5",
+    "rootDiagramID": "655bd4cab52f58001242b541",
+    "templateDiagramID": "655bd4cab52f58001242b540"
+  },
+  "diagrams": {
+    "655bd4cab52f58001242b541": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "646187c35b0afc227e84c8e0",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -248.59,
+                          -683.76
+                        ]
+                      },
+                      {
+                        "point": [
+                          -167.12,
+                          -683.76
+                        ]
+                      },
+                      {
+                        "point": [
+                          -167.12,
+                          -194.79
+                        ]
+                      },
+                      {
+                        "point": [
+                          -85.64,
+                          -194.79
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -313.24480570620267,
+            -705.7622372912369
+          ]
+        },
+        "646187c35b0afc227e84c8dc": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "color": "",
+            "steps": [
+              "646187c35b0afc227e84c8e9",
+              "646187c35b0afc227e84c8ec"
+            ]
+          },
+          "nodeID": "646187c35b0afc227e84c8dc",
+          "coords": [
+            447.7231714085425,
+            -723.0025025638035
+          ]
+        },
+        "646187c35b0afc227e84c8de": {
+          "type": "block",
+          "data": {
+            "name": "End Conversation",
+            "color": "",
+            "steps": [
+              "646187c35b0afc227e84c8f0",
+              "646187c35b0afc227e84c8f3"
+            ]
+          },
+          "nodeID": "646187c35b0afc227e84c8de",
+          "coords": [
+            675.8269687507482,
+            -450.1658841064414
+          ]
+        },
+        "646187c35b0afc227e84c8e0": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "color": "",
+            "steps": [
+              "646187c35b0afc227e84c8f5",
+              "646187c35b0afc227e84c8f8",
+              "646187c35b0afc227e84c8fb"
+            ]
+          },
+          "nodeID": "646187c35b0afc227e84c8e0",
+          "coords": [
+            79.35591513932893,
+            -221.7949347663514
+          ]
+        },
+        "646187c35b0afc227e84c8e9": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0c2",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "646187c35b0afc227e84c8ec",
+                  "id": "646187c35b0afc227e84c8ea"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "646187c35b0afc227e84c8e9"
+        },
+        "646187c35b0afc227e84c8ec": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "last_utterance"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64c2bced0639171d35c4e9f7",
+                  "id": "646187c35b0afc227e84c8ed",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          613.72,
+                          -537
+                        ]
+                      },
+                      {
+                        "point": [
+                          726.55,
+                          -537
+                        ]
+                      },
+                      {
+                        "point": [
+                          726.55,
+                          -855.04
+                        ]
+                      },
+                      {
+                        "point": [
+                          839.37,
+                          -855.04
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "646187c35b0afc227e84c8ee"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "646187c35b0afc227e84c8ec",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "646187c35b0afc227e84c8f0": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0c5",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "646187c35b0afc227e84c8f3",
+                  "id": "646187c35b0afc227e84c8f1"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "646187c35b0afc227e84c8f0"
+        },
+        "646187c35b0afc227e84c8f3": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "646187c35b0afc227e84c8f3"
+        },
+        "646187c35b0afc227e84c8f5": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "prompt": "Say hello  to the  user in  vietnamese language, 👾",
+            "system": "You are a helpful assistant. Keep all responses to one sentence maximum. Do not exceed a once sentence response.",
+            "maxTokens": 20,
+            "model": "gpt-3.5-turbo",
+            "temperature": 1,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "646187c35b0afc227e84c8f8",
+                  "id": "646187c35b0afc227e84c8f6"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "646187c35b0afc227e84c8f5"
+        },
+        "646187c35b0afc227e84c8f8": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0c8",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "646187c35b0afc227e84c8fb",
+                  "id": "646187c35b0afc227e84c8f9"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "646187c35b0afc227e84c8f8"
+        },
+        "646187c35b0afc227e84c8fb": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "3bk837y0",
+                "name": "Sản phẩm",
+                "actions": [],
+                "intent": "f71dt37d6"
+              },
+              {
+                "id": "tlvu37wz",
+                "name": "Kết thúc trò chuyện",
+                "actions": [],
+                "intent": "rt1l137l7"
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "646187c35b0afc227e84c8fc"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "657505fe14425134d82896ae",
+                  "id": "646187c35b0afc227e84c8fd",
+                  "data": {}
+                },
+                {
+                  "type": "",
+                  "target": "646187c35b0afc227e84c8de",
+                  "id": "646187c35b0afc227e84c8fe",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          245.36,
+                          86.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          378.09,
+                          86.21
+                        ]
+                      },
+                      {
+                        "point": [
+                          378.09,
+                          -423.17
+                        ]
+                      },
+                      {
+                        "point": [
+                          510.83,
+                          -423.17
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "646187c35b0afc227e84c8fb",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "646187c35b0afc227e84c8ff": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Use the "
+                  },
+                  {
+                    "type": "link",
+                    "url": "Capture",
+                    "children": [
+                      {
+                        "text": "Capture",
+                        "color": {
+                          "r": 93,
+                          "g": 157,
+                          "b": 245,
+                          "a": 1
+                        },
+                        "underline": true,
+                        "fontWeight": "700"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " ",
+                    "fontWeight": "700"
+                  },
+                  {
+                    "fontWeight": "400",
+                    "text": "step to save what a user says to a variable "
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 330.77665363275673,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            }
+          },
+          "nodeID": "646187c35b0afc227e84c8ff",
+          "coords": [
+            383.8404742773331,
+            -831.6602381741909
+          ]
+        },
+        "64c2bced0639171d35c4e9f7": {
+          "type": "block",
+          "data": {
+            "name": "AI response output",
+            "color": "#A1ADBA",
+            "steps": [
+              "64c2bced0639171d35c4e9f9",
+              "64c2bced0639171d35c4e9fc"
+            ]
+          },
+          "nodeID": "64c2bced0639171d35c4e9f7",
+          "coords": [
+            1004.3682433434574,
+            -882.0400034297841
+          ]
+        },
+        "64c2bced0639171d35c4e9f9": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "prompt": "Based on the users question, respond with two brief sentences.",
+            "system": "You are a helpful assistant",
+            "maxTokens": 100,
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.7,
+            "mode": "memory_prompt",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64c2bced0639171d35c4e9fc",
+                  "id": "64c2bced0639171d35c4e9fa",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1492.8660686064811,
+                          -438.53873594372726
+                        ]
+                      },
+                      {
+                        "point": [
+                          1573.7560686064812,
+                          -438.53873594372726
+                        ]
+                      },
+                      {
+                        "point": [
+                          1573.7560686064812,
+                          -224.3487359437272
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64c2bced0639171d35c4e9f9"
+        },
+        "64c2bced0639171d35c4e9fc": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "noMatch": null,
+            "buttons": [
+              {
+                "id": "ou8ce396c",
+                "name": "Add a step",
+                "actions": []
+              }
+            ],
+            "noReply": null,
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64c2bced0639171d35c4e9fd"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": null,
+                  "id": "64c2bced0639171d35c4e9fe"
+                }
+              ]
+            }
+          },
+          "nodeID": "64c2bced0639171d35c4e9fc"
+        },
+        "64c2bced0639171d35c4e9ff": {
+          "type": "markup_image",
+          "data": {
+            "name": "Block",
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1690483796272-cleanshot-2023-07-27-at-14.49.35.png",
+            "width": 261,
+            "height": 380,
+            "rotate": 0
+          },
+          "nodeID": "64c2bced0639171d35c4e9ff",
+          "coords": [
+            1417.3621055774393,
+            -421.885598895401
+          ]
+        },
+        "64c2bced0639171d35c4ea00": {
+          "type": "markup_text",
+          "data": {
+            "name": "Block",
+            "scale": 1,
+            "rotate": 0,
+            "content": [
+              {
+                "textAlign": "center",
+                "children": [
+                  {
+                    "text": "Drag out this connector to add a step"
+                  }
+                ]
+              }
+            ],
+            "overrideWidth": 374.99999999999994,
+            "backgroundColor": {
+              "r": 197,
+              "g": 231,
+              "b": 246,
+              "a": 1
+            }
+          },
+          "nodeID": "64c2bced0639171d35c4ea00",
+          "coords": [
+            749.9417612710242,
+            -491.832297239646
+          ]
+        },
+        "657505fe14425134d82896ad": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "f71dt37d6",
+            "diagramID": "655bd4cab52f58001242b541",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "657505fe14425134d82896ad"
+        },
+        "657505fe14425134d82896ae": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "657505fe14425134d82896ad"
+            ]
+          },
+          "nodeID": "657505fe14425134d82896ae",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6575061c14425134d82896b3": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jvc1qlg071zetah4cfm",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "f71dt37d6"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6575073314425134d82896d0",
+                  "id": "6575061c14425134d82896b4",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6575061c14425134d82896b3"
+        },
+        "6575061c14425134d82896b5": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "6575061c14425134d82896b3"
+            ]
+          },
+          "nodeID": "6575061c14425134d82896b5",
+          "coords": [
+            -416.63147995824113,
+            -819.2813708655734
+          ]
+        },
+        "6575073314425134d82896d0": {
+          "type": "block",
+          "data": {
+            "name": "New Block 7",
+            "steps": [
+              "6575076d14425134d82896e1",
+              "657507c114425134d8289705"
+            ]
+          },
+          "nodeID": "6575073314425134d82896d0",
+          "coords": [
+            -506.6233839169564,
+            -560.3327887131009
+          ]
+        },
+        "6575076d14425134d82896e1": {
+          "type": "generative",
+          "data": {
+            "name": "Response AI",
+            "mode": "prompt",
+            "prompt": "viết câu giới thiệu: cửa hàng Electro của chúng tôi có các mặt hàng như pc, laptop, điện thoại, đồng hồ thông minh,...",
+            "system": "",
+            "maxTokens": 128,
+            "model": "gpt-3.5-turbo",
+            "temperature": 0.7,
+            "notFoundPath": true,
+            "overrideParams": false,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6575076d14425134d82896e2"
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "6575076d14425134d82896e3"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6575076d14425134d82896e1"
+        },
+        "657507c114425134d8289705": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "gr2oq37qc",
+                "name": "máy tính & laptop",
+                "actions": []
+              },
+              {
+                "id": "6m2th37kd",
+                "name": "đồng hồ",
+                "actions": []
+              },
+              {
+                "id": "0x2tq37l8",
+                "name": "",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "657507c114425134d8289707"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "6575080f14425134d828972e",
+                  "id": "657507c114425134d8289706",
+                  "data": {}
+                },
+                {
+                  "id": "657507d814425134d8289728",
+                  "type": "",
+                  "target": "65750e6d14425134d8289829",
+                  "data": {}
+                },
+                {
+                  "id": "657507d914425134d828972a",
+                  "type": "",
+                  "target": null
+                }
+              ]
+            }
+          },
+          "nodeID": "657507c114425134d8289705",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6575080f14425134d828972d": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "vw45a37t4",
+            "diagramID": "655bd4cab52f58001242b541",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6575080f14425134d828972d"
+        },
+        "6575080f14425134d828972e": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "6575080f14425134d828972d"
+            ]
+          },
+          "nodeID": "6575080f14425134d828972e",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6575087414425134d828973c": {
+          "type": "block",
+          "data": {
+            "name": "New Block 8",
+            "steps": [
+              "6575087f14425134d8289742",
+              "657508ed14425134d8289752"
+            ],
+            "color": ""
+          },
+          "nodeID": "6575087414425134d828973c",
+          "coords": [
+            -1010.3458929205581,
+            -583.9305828307479
+          ]
+        },
+        "6575087f14425134d8289742": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0cb",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6575087f14425134d8289743"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "6575087f14425134d8289742"
+        },
+        "657508ed14425134d8289752": {
+          "type": "carousel",
+          "data": {
+            "name": "Card",
+            "cards": [
+              {
+                "id": "n43kg37no",
+                "title": "ASUS ROG Zephyrus G14",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": "$1149 "
+                      },
+                      {
+                        "text": "$1299",
+                        "strikeThrough": true
+                      },
+                      {
+                        "strikeThrough": false,
+                        "text": " "
+                      },
+                      {
+                        "text": "\r\n"
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://cm4-production-assets.s3.amazonaws.com/1702170625124-rfurc1aeqnw2wfaembgk3amknfsxkvcfioltbygs.png",
+                "buttons": [
+                  {
+                    "id": "x01xh3qug",
+                    "name": "Mua ngay",
+                    "intent": null
+                  }
+                ]
+              },
+              {
+                "id": "pr48a37ej",
+                "title": "Skytech Gaming Blaze II",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": "$1249.00 "
+                      },
+                      {
+                        "text": "$1399.00",
+                        "strikeThrough": true
+                      },
+                      {
+                        "strikeThrough": false,
+                        "text": "  "
+                      },
+                      {
+                        "text": "\r\n"
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://cm4-production-assets.s3.amazonaws.com/1702169276942-gvs7mzbq20hjawilefm086xhfk3d6rnwwvkbwis1.png",
+                "buttons": [
+                  {
+                    "id": "h21zn3qns",
+                    "name": "Mua ngay",
+                    "intent": null
+                  }
+                ]
+              },
+              {
+                "id": "346t237vk",
+                "title": "MSI GE66 Raider",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": "$1499.00 "
+                      },
+                      {
+                        "text": "$1599.00",
+                        "strikeThrough": true
+                      },
+                      {
+                        "strikeThrough": false,
+                        "text": "  "
+                      },
+                      {
+                        "text": "\r\n"
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://cm4-production-assets.s3.amazonaws.com/1702170006270-agile3ufdmdsqhbgxlbsi31ovmsmcsrbuzfigjed.png",
+                "buttons": [
+                  {
+                    "id": "4u21u3qsa",
+                    "name": "Mua ngay",
+                    "intent": null
+                  }
+                ]
+              }
+            ],
+            "layout": "List",
+            "portsV2": {
+              "byKey": {
+                "x01xh3qug": {
+                  "id": "657583f33594a67a7c03c45d",
+                  "target": "657584473594a67a7c03c460",
+                  "type": "",
+                  "data": {}
+                },
+                "h21zn3qns": {
+                  "id": "6575845c3594a67a7c03c467",
+                  "target": "657584633594a67a7c03c46a",
+                  "type": "",
+                  "data": {}
+                },
+                "4u21u3qsa": {
+                  "id": "657584833594a67a7c03c471",
+                  "target": "657584963594a67a7c03c474",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "657508ed14425134d8289753"
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "657508ed14425134d8289754"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "657508ed14425134d8289752",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657509c214425134d828975f": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jvd1qlh071z4nm8anv7",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "vw45a37t4"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6575087414425134d828973c",
+                  "id": "657509c214425134d8289760",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -969.22,
+                          -822.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          -945.22,
+                          -822.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          -945.22,
+                          -703.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1010.35,
+                          -703.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1010.35,
+                          -583.93
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "657509c214425134d828975f"
+        },
+        "657509c214425134d8289761": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "657509c214425134d828975f"
+            ]
+          },
+          "nodeID": "657509c214425134d8289761",
+          "coords": [
+            -1084.2230665757684,
+            -844.186150334715
+          ]
+        },
+        "65750ba214425134d82897b5": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jvd1qli071zb8z3a5rm",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "5x36537d1"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6575087f14425134d8289742",
+                  "id": "65750ba214425134d82897b6",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1235.85,
+                          -913.18
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1206.1,
+                          -913.18
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1206.1,
+                          -504.93
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1176.35,
+                          -504.93
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "65750ba214425134d82897b5"
+        },
+        "65750ba214425134d82897b7": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "65750ba214425134d82897b5"
+            ]
+          },
+          "nodeID": "65750ba214425134d82897b7",
+          "coords": [
+            -1315.345892920558,
+            -935.1805828307479
+          ]
+        },
+        "65750c8314425134d82897bf": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jvd1qlj071zhwlf6pw9",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": true
+                },
+                "resourceID": "l862737zp"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65750c8314425134d82897c0",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -800.85,
+                          -891.93
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          -849.1,
+                          -891.93
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -849.1,
+                          -584.33
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -506.62,
+                          -584.33
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -506.62,
+                          -560.33
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "65750c8314425134d82897bf"
+        },
+        "65750c8314425134d82897c1": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "65750c8314425134d82897bf"
+            ]
+          },
+          "nodeID": "65750c8314425134d82897c1",
+          "coords": [
+            -742.8458929205581,
+            -908.9305828307479
+          ]
+        },
+        "65750cdf14425134d8289814": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jvd1qlk071zhx17a1yy",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "je6gu3708"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6575087f14425134d8289742",
+                  "id": "65750cdf14425134d8289815",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1278.22,
+                          -750.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1227.28,
+                          -750.19
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1227.28,
+                          -504.93
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1176.35,
+                          -504.93
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "65750cdf14425134d8289814"
+        },
+        "65750cdf14425134d8289816": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "65750cdf14425134d8289814"
+            ]
+          },
+          "nodeID": "65750cdf14425134d8289816",
+          "coords": [
+            -1364.2231750488281,
+            -772.1862030029297
+          ]
+        },
+        "65750de314425134d828981f": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jvd1qll071z7qbt550c",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "y272z376a"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6575076d14425134d82896e1",
+                  "id": "65750de314425134d8289820",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -581.12,
+                          -698.33
+                        ]
+                      },
+                      {
+                        "point": [
+                          -557.12,
+                          -698.33
+                        ]
+                      },
+                      {
+                        "point": [
+                          -557.12,
+                          -589.83
+                        ]
+                      },
+                      {
+                        "point": [
+                          -696.62,
+                          -589.83
+                        ]
+                      },
+                      {
+                        "point": [
+                          -696.62,
+                          -481.33
+                        ]
+                      },
+                      {
+                        "point": [
+                          -672.62,
+                          -481.33
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "65750de314425134d828981f"
+        },
+        "65750de314425134d8289821": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "65750de314425134d828981f"
+            ]
+          },
+          "nodeID": "65750de314425134d8289821",
+          "coords": [
+            -661.6233839169564,
+            -720.3327887131009
+          ]
+        },
+        "65750e6d14425134d8289828": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": null,
+            "diagramID": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "65750e6d14425134d8289828"
+        },
+        "65750e6d14425134d8289829": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "65750e6d14425134d8289828"
+            ]
+          },
+          "nodeID": "65750e6d14425134d8289829",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65750e7614425134d828982e": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jvd1qlm071zc46xh2eh",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "3o7i037rg"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "65750ec214425134d8289834",
+                  "id": "65750e7614425134d828982f",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1219.65,
+                          2.39
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1133.74,
+                          2.39
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1133.74,
+                          127.51
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1047.83,
+                          127.51
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "65750e7614425134d828982e"
+        },
+        "65750e7614425134d8289830": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "65750e7614425134d828982e"
+            ]
+          },
+          "nodeID": "65750e7614425134d8289830",
+          "coords": [
+            -1296.1546339169563,
+            -19.60553085969792
+          ]
+        },
+        "65750ec214425134d8289834": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0ce",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65750ec214425134d8289835"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "65750ec214425134d8289834"
+        },
+        "65750ec214425134d8289836": {
+          "type": "block",
+          "data": {
+            "name": "New Block 14",
+            "steps": [
+              "65750ec214425134d8289834",
+              "65750f4c14425134d828983d"
+            ]
+          },
+          "nodeID": "65750ec214425134d8289836",
+          "coords": [
+            -881.828546960435,
+            48.514034357693276
+          ]
+        },
+        "65750f4c14425134d828983d": {
+          "type": "carousel",
+          "data": {
+            "name": "Card",
+            "cards": [
+              {
+                "id": "h87nz3719",
+                "title": "Fitbit Versa 3 Health & Fitness Smartwatch With GPS",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": "$599.00 "
+                      },
+                      {
+                        "text": "$1399.00 ",
+                        "strikeThrough": true
+                      },
+                      {
+                        "text": "\r\n"
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://cm4-production-assets.s3.amazonaws.com/1702170500424-5qgswpzh4hnsnnn2y5kh1d2zxppb3p7j0nb1qanw.png",
+                "buttons": [
+                  {
+                    "id": "7n23i3qpd",
+                    "name": "Mua ngay",
+                    "intent": null
+                  }
+                ]
+              },
+              {
+                "id": "mq7ox37dk",
+                "title": "Forerunner 945 Advanced GPS Running Smartwatch",
+                "description": [
+                  {
+                    "children": [
+                      {
+                        "text": "$599.00 "
+                      },
+                      {
+                        "text": "$1399.00",
+                        "strikeThrough": true
+                      },
+                      {
+                        "text": "\r\n"
+                      }
+                    ]
+                  }
+                ],
+                "imageUrl": "https://cm4-production-assets.s3.amazonaws.com/1702170552948-qdm6sb5icxzhhyyzxmwx0pzboczslblhbxx4qcbl.png",
+                "buttons": [
+                  {
+                    "id": "8324w3ql9",
+                    "name": "Mua ngay",
+                    "intent": null
+                  }
+                ]
+              }
+            ],
+            "layout": "Carousel",
+            "portsV2": {
+              "byKey": {
+                "7n23i3qpd": {
+                  "id": "657584c13594a67a7c03c47b",
+                  "target": "657584c73594a67a7c03c47e",
+                  "type": "",
+                  "data": {}
+                },
+                "8324w3ql9": {
+                  "id": "657584e23594a67a7c03c485",
+                  "target": "657584e73594a67a7c03c488",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65750f4c14425134d828983e"
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65750f4c14425134d828983f"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65750f4c14425134d828983d",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6575158f14425134d8289915": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jvd1qln071ze2n4bvek",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "hca4n3786"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6575087f14425134d8289742",
+                  "id": "6575158f14425134d8289916",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -920.05,
+                          -674.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          -820.35,
+                          -674.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          -820.35,
+                          -504.93
+                        ]
+                      },
+                      {
+                        "point": [
+                          -844.35,
+                          -504.93
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6575158f14425134d8289915"
+        },
+        "6575158f14425134d8289917": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "6575158f14425134d8289915"
+            ]
+          },
+          "nodeID": "6575158f14425134d8289917",
+          "coords": [
+            -1034.5488467654338,
+            -696.9616014330181
+          ]
+        },
+        "657515df14425134d828991c": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jve1qlo071zaeqaaf4l",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "tta8437om"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6575160d14425134d8289922",
+                  "id": "657515df14425134d828991d",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -374.54,
+                          -19.51
+                        ]
+                      },
+                      {
+                        "point": [
+                          -350.54,
+                          -19.51
+                        ]
+                      },
+                      {
+                        "point": [
+                          -350.54,
+                          83.2
+                        ]
+                      },
+                      {
+                        "point": [
+                          -526.04,
+                          83.2
+                        ]
+                      },
+                      {
+                        "point": [
+                          -526.04,
+                          185.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          -502.04,
+                          185.92
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "657515df14425134d828991c",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657515df14425134d828991e": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "657515df14425134d828991c"
+            ]
+          },
+          "nodeID": "657515df14425134d828991e",
+          "coords": [
+            -438.5371792148038,
+            -41.51367254585111
+          ]
+        },
+        "6575160d14425134d8289922": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0d1",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6575160d14425134d8289923"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "6575160d14425134d8289922",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6575160d14425134d8289924": {
+          "type": "block",
+          "data": {
+            "name": "New Block 17",
+            "steps": [
+              "6575160d14425134d8289922",
+              "6575182e14425134d828994f",
+              "65751a0514425134d828996e"
+            ]
+          },
+          "nodeID": "6575160d14425134d8289924",
+          "coords": [
+            -336.0371792148038,
+            106.92382745414889
+          ]
+        },
+        "6575166c14425134d828992c": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jve1qlp071z3wuqbslc",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "s9ajg375q"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6575169e14425134d8289932",
+                  "id": "6575166c14425134d828992d",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          97.28,
+                          -571.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          222.44,
+                          -571.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          222.44,
+                          -398.55
+                        ]
+                      },
+                      {
+                        "point": [
+                          198.44,
+                          -398.55
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6575166c14425134d828992c"
+        },
+        "6575166c14425134d828992e": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "6575166c14425134d828992c"
+            ]
+          },
+          "nodeID": "6575166c14425134d828992e",
+          "coords": [
+            -4.224116151740041,
+            -593.7968932665723
+          ]
+        },
+        "6575169e14425134d8289932": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0d4",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6575169e14425134d8289933"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "6575169e14425134d8289932"
+        },
+        "6575169e14425134d8289934": {
+          "type": "block",
+          "data": {
+            "name": "New Block 19",
+            "steps": [
+              "6575169e14425134d8289932",
+              "6575170f14425134d828993b"
+            ],
+            "color": ""
+          },
+          "nodeID": "6575169e14425134d8289934",
+          "coords": [
+            32.442550514926666,
+            -477.5468932665722
+          ]
+        },
+        "6575170f14425134d828993b": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "5gamo37fe",
+                "name": "Đăng ký ngay",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "6575170f14425134d828993d"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "6575175214425134d8289941",
+                  "id": "6575170f14425134d828993c",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          198.44,
+                          -300.3
+                        ]
+                      },
+                      {
+                        "point": [
+                          717.57,
+                          -300.3
+                        ]
+                      },
+                      {
+                        "point": [
+                          717.57,
+                          -119.58
+                        ]
+                      },
+                      {
+                        "point": [
+                          1236.69,
+                          -119.58
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "6575170f14425134d828993b",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6575175214425134d8289941": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0d7",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6575175214425134d8289942"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "6575175214425134d8289941"
+        },
+        "6575175214425134d8289943": {
+          "type": "block",
+          "data": {
+            "name": "New Block 20",
+            "steps": [
+              "6575175214425134d8289941",
+              "657581cf3594a67a7c03c439"
+            ]
+          },
+          "nodeID": "6575175214425134d8289943",
+          "coords": [
+            1402.6918213179315,
+            -198.58293312532035
+          ]
+        },
+        "6575182e14425134d828994f": {
+          "type": "visual",
+          "data": {
+            "name": "Visuals",
+            "image": "https://cm4-production-assets.s3.amazonaws.com/1702172723801-23.png",
+            "visualType": "image",
+            "canvasVisibility": "full",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6575182e14425134d8289950"
+                }
+              },
+              "dynamic": []
+            },
+            "dimensions": {
+              "width": 770,
+              "height": 690
+            },
+            "frameType": "AUTO"
+          },
+          "nodeID": "6575182e14425134d828994f",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65751a0514425134d828996e": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "h7bxf37rz",
+                "name": "Nạp tiền ngay",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65751a0514425134d8289970"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "65751a4a14425134d828997a",
+                  "id": "65751a0514425134d828996f",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "65751a0514425134d828996e",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65751a4a14425134d8289979": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "http://localhost:8000/wallet",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65751a4a14425134d828997b"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65751a4a14425134d8289979"
+        },
+        "65751a4a14425134d828997a": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "65751a4a14425134d8289979"
+            ]
+          },
+          "nodeID": "65751a4a14425134d828997a",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "65751adc14425134d8289984": {
+          "type": "markup_image",
+          "data": {
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1702173403353-5771766.png",
+            "width": 256,
+            "height": 256,
+            "rotate": 0
+          },
+          "nodeID": "65751adc14425134d8289984",
+          "coords": [
+            1982.2457420042872,
+            -87.69272659990577
+          ]
+        },
+        "65751af414425134d8289987": {
+          "type": "markup_image",
+          "data": {
+            "url": "https://cm4-production-assets.s3.amazonaws.com/1702173427019-4836491.png",
+            "width": 64,
+            "height": 64,
+            "rotate": 0
+          },
+          "nodeID": "65751af414425134d8289987",
+          "coords": [
+            1728.245742004287,
+            -36.692726599905754
+          ]
+        },
+        "65751c9114425134d8289990": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cm0wg4jve1qlq071zc4smdeci",
+                "type": "intent",
+                "mappings": [],
+                "settings": {
+                  "local": false
+                },
+                "resourceID": "04di43756"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "65751cd114425134d828999f",
+                  "id": "65751c9114425134d8289991",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          33.71,
+                          -1034.83
+                        ]
+                      },
+                      {
+                        "point": [
+                          191.46,
+                          -1034.83
+                        ]
+                      },
+                      {
+                        "point": [
+                          191.46,
+                          -855.64
+                        ]
+                      },
+                      {
+                        "point": [
+                          167.46,
+                          -855.64
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "65751c9114425134d8289990"
+        },
+        "65751c9114425134d8289992": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "65751c9114425134d8289990"
+            ]
+          },
+          "nodeID": "65751c9114425134d8289992",
+          "coords": [
+            -119.7871792148041,
+            -1056.826172545851
+          ]
+        },
+        "65751cd114425134d828999f": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0da",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65751cd114425134d82899a0"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "65751cd114425134d828999f"
+        },
+        "65751cd114425134d82899a1": {
+          "type": "block",
+          "data": {
+            "name": "New Block 22",
+            "steps": [
+              "65751cd114425134d828999f",
+              "65751d0c14425134d82899a8"
+            ]
+          },
+          "nodeID": "65751cd114425134d82899a1",
+          "coords": [
+            1.4628207851959019,
+            -934.6386725458513
+          ]
+        },
+        "65751d0c14425134d82899a8": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "v9dm037jf",
+                "name": "Thanh toán ngay",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "65751d0c14425134d82899aa"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "65751d1c14425134d82899af",
+                  "id": "65751d0c14425134d82899a9",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "65751d0c14425134d82899a8"
+        },
+        "65751d1c14425134d82899ae": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "https://electro.io.vn/checkout",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "65751d1c14425134d82899b0"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "65751d1c14425134d82899ae"
+        },
+        "65751d1c14425134d82899af": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "65751d1c14425134d82899ae"
+            ]
+          },
+          "nodeID": "65751d1c14425134d82899af",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657581cf3594a67a7c03c439": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "it1io3qz3",
+                "name": "Đăng nhập bằng Google",
+                "actions": []
+              },
+              {
+                "id": "b01l33q53",
+                "name": "Đăng nhập bằng Facebook",
+                "actions": []
+              },
+              {
+                "id": "v51n03q4w",
+                "name": "Đăng nhập bằng email và password",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "657581cf3594a67a7c03c43b"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "657581d23594a67a7c03c43f",
+                  "id": "657581cf3594a67a7c03c43a",
+                  "data": {}
+                },
+                {
+                  "id": "6575821a3594a67a7c03c447",
+                  "type": "",
+                  "target": "657582283594a67a7c03c44a",
+                  "data": {}
+                },
+                {
+                  "id": "657582443594a67a7c03c451",
+                  "type": "",
+                  "target": "657582553594a67a7c03c454",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "657581cf3594a67a7c03c439",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657581d23594a67a7c03c43e": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "http://localhost:8000/google/auth",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "657581d23594a67a7c03c440"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "657581d23594a67a7c03c43e"
+        },
+        "657581d23594a67a7c03c43f": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "657581d23594a67a7c03c43e"
+            ]
+          },
+          "nodeID": "657581d23594a67a7c03c43f",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657582283594a67a7c03c449": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "http://localhost:8000/facebook/auth",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "657582283594a67a7c03c44b"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "657582283594a67a7c03c449"
+        },
+        "657582283594a67a7c03c44a": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "657582283594a67a7c03c449"
+            ]
+          },
+          "nodeID": "657582283594a67a7c03c44a",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657582553594a67a7c03c453": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "http://localhost:8000/auth/register",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "657582553594a67a7c03c455"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "657582553594a67a7c03c453"
+        },
+        "657582553594a67a7c03c454": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "657582553594a67a7c03c453"
+            ]
+          },
+          "nodeID": "657582553594a67a7c03c454",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657584473594a67a7c03c45f": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "http://localhost:8000/asus-rog-zephyrus-g14",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "657584473594a67a7c03c461"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "657584473594a67a7c03c45f"
+        },
+        "657584473594a67a7c03c460": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "657584473594a67a7c03c45f"
+            ]
+          },
+          "nodeID": "657584473594a67a7c03c460",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657584633594a67a7c03c469": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "http://localhost:8000/hp-omen-15",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "657584633594a67a7c03c46b"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "657584633594a67a7c03c469"
+        },
+        "657584633594a67a7c03c46a": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "657584633594a67a7c03c469"
+            ]
+          },
+          "nodeID": "657584633594a67a7c03c46a",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657584963594a67a7c03c473": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "http://localhost:8000/msi-ge66-raider",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "657584963594a67a7c03c475"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "657584963594a67a7c03c473"
+        },
+        "657584963594a67a7c03c474": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "657584963594a67a7c03c473"
+            ]
+          },
+          "nodeID": "657584963594a67a7c03c474",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657584c73594a67a7c03c47d": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "http://localhost:8000/fitbit-versa-3-health-fitness-smartwatch-with-gps",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "657584c73594a67a7c03c47f"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "657584c73594a67a7c03c47d"
+        },
+        "657584c73594a67a7c03c47e": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "657584c73594a67a7c03c47d"
+            ]
+          },
+          "nodeID": "657584c73594a67a7c03c47e",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "657584e73594a67a7c03c487": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "http://localhost:8000/garmin-forerunner-945-advanced-gps-running-smartwatch",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "657584e73594a67a7c03c489"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "657584e73594a67a7c03c487"
+        },
+        "657584e73594a67a7c03c488": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "657584e73594a67a7c03c487"
+            ]
+          },
+          "nodeID": "657584e73594a67a7c03c488",
+          "coords": [
+            0,
+            0
+          ]
+        }
+      },
+      "offsetX": 810.5958445649621,
+      "offsetY": 864.6097898329896,
+      "modified": 1702167642,
+      "creatorID": 281594,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "6575061c14425134d82896b3"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "657509c214425134d828975f"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "65750ba214425134d82897b5"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "65750c8314425134d82897bf"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "65750cdf14425134d8289814"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "65750de314425134d828981f"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "65750e7614425134d828982e"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "6575158f14425134d8289915"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "657515df14425134d828991c"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "6575166c14425134d828992c"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "65751c9114425134d8289990"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "66e0446e07c0b3b6adc81de7",
+      "diagramID": "655bd4cab52f58001242b541",
+      "versionID": "66e0446d07c0b3b6adc81de6"
+    },
+    "655bd4cab52f58001242b540": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {
+        "643872d482cf9d2273b905df": {
+          "type": "block",
+          "data": {
+            "name": "Option 2",
+            "color": "",
+            "steps": [
+              "643872d482cf9d2273b905e5"
+            ]
+          },
+          "nodeID": "643872d482cf9d2273b905df",
+          "coords": [
+            -432.02299332274276,
+            -334.73425308247994
+          ]
+        },
+        "643872d482cf9d2273b905e5": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0dd",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "643872d482cf9d2273b905e6"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "643872d482cf9d2273b905e5"
+        },
+        "643872d482cf9d2273b905e1": {
+          "type": "block",
+          "data": {
+            "name": "Start Block",
+            "color": "#5b9fd7",
+            "steps": [
+              "643872d482cf9d2273b905e8",
+              "643872d482cf9d2273b905eb"
+            ]
+          },
+          "nodeID": "643872d482cf9d2273b905e1",
+          "coords": [
+            -845.4801744371416,
+            -539.5792694267975
+          ]
+        },
+        "643872d482cf9d2273b905e8": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0e0",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "643872d482cf9d2273b905eb",
+                  "id": "643872d482cf9d2273b905e9"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "643872d482cf9d2273b905e8"
+        },
+        "643872d482cf9d2273b905eb": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "noMatch": null,
+            "buttons": [
+              {
+                "id": "xr9vd34tj",
+                "name": "Path 1",
+                "actions": []
+              },
+              {
+                "id": "cl9vs34c7",
+                "name": "Path 2",
+                "actions": []
+              }
+            ],
+            "noReply": null,
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "643872d482cf9d2273b905ec"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "643872d482cf9d2273b905e3",
+                  "id": "643872d482cf9d2273b905ed",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -679.4801667002234,
+                          -399.32923837159325
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -637.4918741411055,
+                          -399.32923837159325
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -637.4918741411055,
+                          -542.9755028741506
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -595.5035815819875,
+                          -542.9755028741506
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "",
+                  "target": "643872d482cf9d2273b905df",
+                  "id": "643872d482cf9d2273b905ee",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -679.4801667002234,
+                          -344.82921901334083
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -638.2515780028617,
+                          -344.82921901334083
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -638.2515780028617,
+                          -307.73401942975823
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -597.0229893055001,
+                          -307.73401942975823
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "643872d482cf9d2273b905eb"
+        },
+        "643872d482cf9d2273b905e3": {
+          "type": "block",
+          "data": {
+            "name": "Option 1",
+            "color": "",
+            "steps": [
+              "643872d482cf9d2273b905f0"
+            ]
+          },
+          "nodeID": "643872d482cf9d2273b905e3",
+          "coords": [
+            -430.5038187460724,
+            -569.9756266907931
+          ]
+        },
+        "643872d482cf9d2273b905f0": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0e3",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "643872d482cf9d2273b905f1"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "643872d482cf9d2273b905f0"
+        },
+        "6438784f82cf9d2273b90dd4": {
+          "type": "block",
+          "data": {
+            "name": "Use Logic to Route",
+            "color": "#dc8879",
+            "steps": [
+              "6438784f82cf9d2273b90ddc"
+            ]
+          },
+          "nodeID": "6438784f82cf9d2273b90dd4",
+          "coords": [
+            -1964.4846386537488,
+            -626.9744457114995
+          ]
+        },
+        "6438784f82cf9d2273b90ddc": {
+          "type": "ifV2",
+          "data": {
+            "name": "If",
+            "expressions": [
+              {
+                "type": null,
+                "name": "If name is elon musk",
+                "value": [
+                  {
+                    "logicInterface": "variable",
+                    "type": "equals",
+                    "value": [
+                      {
+                        "type": "variable",
+                        "value": "name"
+                      },
+                      {
+                        "type": "value",
+                        "value": "elon musk"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "noMatch": {
+              "type": "path",
+              "pathName": "All other names"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": "6438784f82cf9d2273b90dd8",
+                  "id": "6438784f82cf9d2273b90ddd",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1798.484505972181,
+                          -492.72447921623757
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -1763.5243607307511,
+                          -492.72447921623757
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -1763.5243607307511,
+                          -440.2937029472216
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -1728.5642154893217,
+                          -440.2937029472216
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "6438784f82cf9d2273b90dda",
+                  "id": "6438784f82cf9d2273b90dde",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1798.484505972181,
+                          -547.2244999131336
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -1764.1493300508728,
+                          -547.2244999131336
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -1764.1493300508728,
+                          -599.0438504799286
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -1729.814154129565,
+                          -599.0438504799286
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ],
+                    "event": {
+                      "type": "If name is elon musk"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "6438784f82cf9d2273b90ddc"
+        },
+        "6438784f82cf9d2273b90dd6": {
+          "type": "block",
+          "data": {
+            "name": "Capture Information",
+            "color": "#dc8879",
+            "steps": [
+              "6438784f82cf9d2273b90de0",
+              "6438784f82cf9d2273b90de3"
+            ]
+          },
+          "nodeID": "6438784f82cf9d2273b90dd6",
+          "coords": [
+            -2376.095116200327,
+            -628.3840706346044
+          ]
+        },
+        "6438784f82cf9d2273b90de0": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0e6",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "6438784f82cf9d2273b90de3",
+                  "id": "6438784f82cf9d2273b90de1"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "6438784f82cf9d2273b90de0"
+        },
+        "6438784f82cf9d2273b90de3": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "name"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6438784f82cf9d2273b90dd4",
+                  "id": "6438784f82cf9d2273b90de4",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -2210.0950799471193,
+                          -488.1341077200336
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -2169.789872823509,
+                          -488.1341077200336
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -2169.789872823509,
+                          -599.9743336839742
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          -2129.484665699899,
+                          -599.9743336839742
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "6438784f82cf9d2273b90de5"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6438784f82cf9d2273b90de3"
+        },
+        "6438784f82cf9d2273b90dd8": {
+          "type": "block",
+          "data": {
+            "name": "Other names",
+            "color": "#dc8879",
+            "steps": [
+              "6438784f82cf9d2273b90de7"
+            ]
+          },
+          "nodeID": "6438784f82cf9d2273b90dd8",
+          "coords": [
+            -1563.5642881833433,
+            -467.2936955577087
+          ]
+        },
+        "6438784f82cf9d2273b90de7": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0e9",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6438784f82cf9d2273b90de8"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "6438784f82cf9d2273b90de7"
+        },
+        "6438784f82cf9d2273b90dda": {
+          "type": "block",
+          "data": {
+            "name": "Elon Musk",
+            "color": "#dc8879",
+            "steps": [
+              "6438784f82cf9d2273b90dea"
+            ]
+          },
+          "nodeID": "6438784f82cf9d2273b90dda",
+          "coords": [
+            -1564.8142881833433,
+            -626.0436955577089
+          ]
+        },
+        "6438784f82cf9d2273b90dea": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0ec",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6438784f82cf9d2273b90deb"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "6438784f82cf9d2273b90dea"
+        },
+        "645d718f83103cca7a3cecc1": {
+          "type": "block",
+          "data": {
+            "name": "Fail",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d718f83103cca7a3cecc9"
+            ]
+          },
+          "nodeID": "645d718f83103cca7a3cecc1",
+          "coords": [
+            -943.7641060825457,
+            -726.7018427371622
+          ]
+        },
+        "645d718f83103cca7a3cecc9": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0ef",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d718f83103cca7a3cecca"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "645d718f83103cca7a3cecc9"
+        },
+        "645d718f83103cca7a3cecc3": {
+          "type": "block",
+          "data": {
+            "name": "API Call",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d718f83103cca7a3ceccc"
+            ]
+          },
+          "nodeID": "645d718f83103cca7a3cecc3",
+          "coords": [
+            -1337.282813902139,
+            -902.1537022731807
+          ]
+        },
+        "645d718f83103cca7a3ceccc": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://api.openai.com/v1/completions",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "Content-Type",
+                "val": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "val": "Bearer <ADD API KEY HERE>"
+              }
+            ],
+            "content": "{\n  \"model\": \"text-davinci-003\",\n  \"prompt\": \"{last_utterance}\",\n  \"max_tokens\": 7,\n  \"temperature\": 0,\n  \"top_p\": 1,\n  \"n\": 1,\n  \"stream\": false,\n  \"logprobs\": null,\n  \"stop\": \"\\n\"\n}",
+            "mappings": [
+              {
+                "path": "response",
+                "var": "response"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d718f83103cca7a3cecd7",
+                  "id": "645d718f83103cca7a3cecce",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1171.2838307947716,
+                          -748.4052156062919
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1141.0638307947715,
+                          -748.4052156062919
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1141.0638307947715,
+                          -821.3652156062917
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1110.8438307947717,
+                          -821.3652156062917
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": "645d718f83103cca7a3cecc9",
+                  "id": "645d718f83103cca7a3ceccd",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1171.2838307947716,
+                          -693.9052156062919
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1140.5238307947716,
+                          -693.9052156062919
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1140.5238307947716,
+                          -647.2052156062919
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1109.7638307947714,
+                          -647.2052156062919
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d718f83103cca7a3ceccc"
+        },
+        "645d718f83103cca7a3cecc5": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d718f83103cca7a3cecd0",
+              "645d718f83103cca7a3cecd3"
+            ]
+          },
+          "nodeID": "645d718f83103cca7a3cecc5",
+          "coords": [
+            -1722.1832079861151,
+            -907.6478276212674
+          ]
+        },
+        "645d718f83103cca7a3cecd0": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0f2",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "645d718f83103cca7a3cecd3",
+                  "id": "645d718f83103cca7a3cecd1"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "645d718f83103cca7a3cecd0"
+        },
+        "645d718f83103cca7a3cecd3": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "last_utterance"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "645d718f83103cca7a3cecc3",
+                  "id": "645d718f83103cca7a3cecd4",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1556.1838307947714,
+                          -733.6452156062919
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1529.2338307947716,
+                          -733.6452156062919
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1529.2338307947716,
+                          -875.1552156062919
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1502.2838307947716,
+                          -875.1552156062919
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "645d718f83103cca7a3cecd5"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "645d718f83103cca7a3cecd3"
+        },
+        "645d718f83103cca7a3cecc7": {
+          "type": "block",
+          "data": {
+            "name": "Success",
+            "color": "#5b9fd7",
+            "steps": [
+              "645d718f83103cca7a3cecd7"
+            ]
+          },
+          "nodeID": "645d718f83103cca7a3cecc7",
+          "coords": [
+            -944.844860096504,
+            -900.8660415973322
+          ]
+        },
+        "645d718f83103cca7a3cecd7": {
+          "type": "message",
+          "data": {
+            "messageID": "66e0446de96fc5000701e0f5",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "645d718f83103cca7a3cecd8"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "name": "Text"
+          },
+          "nodeID": "645d718f83103cca7a3cecd7"
+        }
+      },
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1702167642,
+      "creatorID": 281594,
+      "variables": [],
+      "menuItems": [],
+      "_id": "66e0446e07c0b3b6adc81de8",
+      "diagramID": "655bd4cab52f58001242b540",
+      "versionID": "66e0446d07c0b3b6adc81de6"
+    }
+  },
+  "flows": [],
+  "entities": [
+    {
+      "id": "4k98m37to",
+      "name": "name",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "color": "#56b365",
+      "classifier": "Custom",
+      "isArray": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    }
+  ],
+  "entityVariants": [
+    {
+      "id": "66e0446de96fc5000701e091",
+      "language": "en-us",
+      "value": "dafaef",
+      "synonyms": [],
+      "entityID": "4k98m37to",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    }
+  ],
+  "intents": [
+    {
+      "id": "VF.YES",
+      "name": "VF.YES",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "VF.NO",
+      "name": "VF.NO",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "f71dt37d6",
+      "name": "shopping",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "5x36537d1",
+      "name": "máy tính",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "vw45a37t4",
+      "name": "máy tính và laptop",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "l862737zp",
+      "name": "123",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "je6gu3708",
+      "name": "máy tính 1",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "y272z376a",
+      "name": "mua sắm",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "3o7i037rg",
+      "name": "đồng hồ",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "hca4n3786",
+      "name": "có máy tính không",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "tta8437om",
+      "name": "ví ảo",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "s9ajg375q",
+      "name": "authentication",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "04di43756",
+      "name": "Các phương thức thanh toán",
+      "createdByID": 281594,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    }
+  ],
+  "utterances": [
+    {
+      "id": "66e0446de96fc5000701e092",
+      "text": [
+        {
+          "text": [
+            "mặt hàng"
+          ]
+        }
+      ],
+      "intentID": "f71dt37d6",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e093",
+      "text": [
+        {
+          "text": [
+            "ở đây bán gì"
+          ]
+        }
+      ],
+      "intentID": "f71dt37d6",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e094",
+      "text": [
+        {
+          "text": [
+            "sản phẩm"
+          ]
+        }
+      ],
+      "intentID": "f71dt37d6",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e095",
+      "text": [
+        {
+          "text": [
+            "cửa hàng"
+          ]
+        }
+      ],
+      "intentID": "f71dt37d6",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e096",
+      "text": [
+        {
+          "text": [
+            "phụ kiện máy tính"
+          ]
+        }
+      ],
+      "intentID": "5x36537d1",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e097",
+      "text": [
+        {
+          "text": [
+            "máy tính để bàn"
+          ]
+        }
+      ],
+      "intentID": "5x36537d1",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e098",
+      "text": [
+        {
+          "text": [
+            "pc"
+          ]
+        }
+      ],
+      "intentID": "5x36537d1",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e099",
+      "text": [
+        {
+          "text": [
+            "máy tính"
+          ]
+        }
+      ],
+      "intentID": "5x36537d1",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e09a",
+      "text": [
+        {
+          "text": [
+            "danh mục laptop máy tính"
+          ]
+        }
+      ],
+      "intentID": "vw45a37t4",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e09b",
+      "text": [
+        {
+          "text": [
+            "các mẫu pc hiện có"
+          ]
+        }
+      ],
+      "intentID": "vw45a37t4",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e09c",
+      "text": [
+        {
+          "text": [
+            "các mẫu laptop"
+          ]
+        }
+      ],
+      "intentID": "vw45a37t4",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e09d",
+      "text": [
+        {
+          "text": [
+            "linh kiện laptop"
+          ]
+        }
+      ],
+      "intentID": "vw45a37t4",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e09e",
+      "text": [
+        {
+          "text": [
+            "có pc không"
+          ]
+        }
+      ],
+      "intentID": "vw45a37t4",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e09f",
+      "text": [
+        {
+          "text": [
+            "tôi  muốn mua pc"
+          ]
+        }
+      ],
+      "intentID": "vw45a37t4",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a0",
+      "text": [
+        {
+          "text": [
+            "laptop"
+          ]
+        }
+      ],
+      "intentID": "vw45a37t4",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a1",
+      "text": [
+        {
+          "text": [
+            "tôi muốn mua máy tính"
+          ]
+        }
+      ],
+      "intentID": "vw45a37t4",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a2",
+      "text": [
+        {
+          "text": [
+            "gia"
+          ]
+        }
+      ],
+      "intentID": "l862737zp",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a3",
+      "text": [
+        {
+          "text": [
+            "gi"
+          ]
+        }
+      ],
+      "intentID": "l862737zp",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a4",
+      "text": [
+        {
+          "text": [
+            "giang"
+          ]
+        }
+      ],
+      "intentID": "l862737zp",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a5",
+      "text": [
+        {
+          "text": [
+            "có laptop không"
+          ]
+        }
+      ],
+      "intentID": "je6gu3708",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a6",
+      "text": [
+        {
+          "text": [
+            "tôi muốn mua pc"
+          ]
+        }
+      ],
+      "intentID": "je6gu3708",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a7",
+      "text": [
+        {
+          "text": [
+            "tôi muốn mua laptop"
+          ]
+        }
+      ],
+      "intentID": "je6gu3708",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a8",
+      "text": [
+        {
+          "text": [
+            "mua sắm"
+          ]
+        }
+      ],
+      "intentID": "y272z376a",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0a9",
+      "text": [
+        {
+          "text": [
+            "bán gì"
+          ]
+        }
+      ],
+      "intentID": "y272z376a",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0aa",
+      "text": [
+        {
+          "text": [
+            "tôi muốn mua"
+          ]
+        }
+      ],
+      "intentID": "y272z376a",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0ab",
+      "text": [
+        {
+          "text": [
+            "tôi muốn mua hàng"
+          ]
+        }
+      ],
+      "intentID": "y272z376a",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0ac",
+      "text": [
+        {
+          "text": [
+            "tôi muốn mua hang"
+          ]
+        }
+      ],
+      "intentID": "y272z376a",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0ad",
+      "text": [
+        {
+          "text": [
+            "các mặt hàng đang bán"
+          ]
+        }
+      ],
+      "intentID": "y272z376a",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0ae",
+      "text": [
+        {
+          "text": [
+            "danh mục đồng hồ"
+          ]
+        }
+      ],
+      "intentID": "3o7i037rg",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0af",
+      "text": [
+        {
+          "text": [
+            "đồng hồ giá rẻ"
+          ]
+        }
+      ],
+      "intentID": "3o7i037rg",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b0",
+      "text": [
+        {
+          "text": [
+            "tôi muốn mua đồng hồ"
+          ]
+        }
+      ],
+      "intentID": "3o7i037rg",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b1",
+      "text": [
+        {
+          "text": [
+            "đồng hồ đẹp"
+          ]
+        }
+      ],
+      "intentID": "3o7i037rg",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b2",
+      "text": [
+        {
+          "text": [
+            "đồng hồ"
+          ]
+        }
+      ],
+      "intentID": "3o7i037rg",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b3",
+      "text": [
+        {
+          "text": [
+            "có máy tính không"
+          ]
+        }
+      ],
+      "intentID": "hca4n3786",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b4",
+      "text": [
+        {
+          "text": [
+            "ví ảo"
+          ]
+        }
+      ],
+      "intentID": "tta8437om",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b5",
+      "text": [
+        {
+          "text": [
+            "ví ảo của trang web này"
+          ]
+        }
+      ],
+      "intentID": "tta8437om",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b6",
+      "text": [
+        {
+          "text": [
+            "ví electro"
+          ]
+        }
+      ],
+      "intentID": "tta8437om",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b7",
+      "text": [
+        {
+          "text": [
+            "ví ảo của trang web này là gì"
+          ]
+        }
+      ],
+      "intentID": "tta8437om",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b8",
+      "text": [
+        {
+          "text": [
+            "đăng nhập"
+          ]
+        }
+      ],
+      "intentID": "s9ajg375q",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0b9",
+      "text": [
+        {
+          "text": [
+            "đăng ký"
+          ]
+        }
+      ],
+      "intentID": "s9ajg375q",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0ba",
+      "text": [
+        {
+          "text": [
+            "các hình thức đăng ký"
+          ]
+        }
+      ],
+      "intentID": "s9ajg375q",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0bb",
+      "text": [
+        {
+          "text": [
+            "các phương thức đăng ký"
+          ]
+        }
+      ],
+      "intentID": "s9ajg375q",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0bc",
+      "text": [
+        {
+          "text": [
+            "các phương thức đăng nhập"
+          ]
+        }
+      ],
+      "intentID": "s9ajg375q",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0bd",
+      "text": [
+        {
+          "text": [
+            "các hình thức đăng nhập"
+          ]
+        }
+      ],
+      "intentID": "s9ajg375q",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0be",
+      "text": [
+        {
+          "text": [
+            "thanh toán như thế nào"
+          ]
+        }
+      ],
+      "intentID": "04di43756",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0bf",
+      "text": [
+        {
+          "text": [
+            "các cách thanh toán"
+          ]
+        }
+      ],
+      "intentID": "04di43756",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0c0",
+      "text": [
+        {
+          "text": [
+            "thanh toán"
+          ]
+        }
+      ],
+      "intentID": "04di43756",
+      "language": "en-us",
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [
+    {
+      "id": "66e0446de96fc5000701e0c2",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0c5",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0c8",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0cb",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0ce",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0d1",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0d4",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0d7",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0da",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0dd",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0e0",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0e3",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0e6",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0e9",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0ec",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0ef",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0f2",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "66e0446de96fc5000701e0f5",
+      "name": "",
+      "createdByID": 281594,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    }
+  ],
+  "responseMessages": [
+    {
+      "id": "66e0446de96fc5000701e0c4",
+      "discriminatorID": "66e0446de96fc5000701e0c3",
+      "text": [
+        {
+          "text": [
+            {
+              "text": [
+                "Ask any question"
+              ],
+              "attributes": {
+                "__type": "text",
+                "fontWeight": "700"
+              }
+            },
+            ", and we'll use the response AI step to provide a response from ChatGPT."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0c7",
+      "discriminatorID": "66e0446de96fc5000701e0c6",
+      "text": [
+        {
+          "text": [
+            "Goodbye!"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0ca",
+      "discriminatorID": "66e0446de96fc5000701e0c9",
+      "text": [
+        {
+          "text": [
+            "Tôi là trợ lý ảo ai của cửa hàng Electro, tôi có thể giúp gì cho bạn"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0cd",
+      "discriminatorID": "66e0446de96fc5000701e0cc",
+      "text": [
+        {
+          "text": [
+            "Chúng tôi cung cấp các mặt hàng về ",
+            {
+              "text": [
+                "máy tính, laptop "
+              ],
+              "attributes": {
+                "__type": "text",
+                "italic": true,
+                "fontWeight": "700"
+              }
+            },
+            "đa dạng, đầy đủ cấu hình. Dưới đây là các mặt hàng máy tính mà chúng tôi đang kinh doanh"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0d0",
+      "discriminatorID": "66e0446de96fc5000701e0cf",
+      "text": [
+        {
+          "text": [
+            "Chúng tôi cung cấp các loại đồng hồ đa dạng, dưới đây là các sản phẩm đồng hồ đang bán chạy "
+          ]
+        },
+        {
+          "text": [
+            "🤖 "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0d3",
+      "discriminatorID": "66e0446de96fc5000701e0d2",
+      "text": [
+        {
+          "text": [
+            "Ví ảo của Electro là một chức năng giúp người dùng có thể thanh toán một cách thuận tiện, bằng cách nạp tiền vào tài khoản bạn có thể sử dụng số dư của ví và thanh toán cho các đơn hàng!"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0d6",
+      "discriminatorID": "66e0446de96fc5000701e0d5",
+      "text": [
+        {
+          "text": [
+            "Tại Electro, bạn có thể đăng nhập bằng 3 hình thức: ",
+            {
+              "text": [
+                "Facebook"
+              ],
+              "attributes": {
+                "__type": "text",
+                "italic": true
+              }
+            },
+            ", ",
+            {
+              "text": [
+                "Google"
+              ],
+              "attributes": {
+                "__type": "text",
+                "italic": true
+              }
+            },
+            ", email và mật khẩu."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0d9",
+      "discriminatorID": "66e0446de96fc5000701e0d8",
+      "text": [
+        {
+          "text": [
+            "Chọn phương thức đăng ký, đăng nhập?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0dc",
+      "discriminatorID": "66e0446de96fc5000701e0db",
+      "text": [
+        {
+          "text": [
+            "Có 3 phương thức thanh toán là:"
+          ]
+        },
+        {
+          "text": [
+            "- Thanh toán qua VNpay"
+          ]
+        },
+        {
+          "text": [
+            "- Thanh toán qua Ví ảo Electro"
+          ]
+        },
+        {
+          "text": [
+            "- Thanh toán khi nhận hàng"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0df",
+      "discriminatorID": "66e0446de96fc5000701e0de",
+      "text": [
+        {
+          "text": [
+            "Second Option"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0e2",
+      "discriminatorID": "66e0446de96fc5000701e0e1",
+      "text": [
+        {
+          "text": [
+            "How can I help you?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0e5",
+      "discriminatorID": "66e0446de96fc5000701e0e4",
+      "text": [
+        {
+          "text": [
+            "First Option"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0e8",
+      "discriminatorID": "66e0446de96fc5000701e0e7",
+      "text": [
+        {
+          "text": [
+            "What is your name?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0eb",
+      "discriminatorID": "66e0446de96fc5000701e0ea",
+      "text": [
+        {
+          "text": [
+            "Hello ",
+            {
+              "variableID": "name"
+            },
+            " !"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0ee",
+      "discriminatorID": "66e0446de96fc5000701e0ed",
+      "text": [
+        {
+          "text": [
+            "Twitter is the best 🐦"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0f1",
+      "discriminatorID": "66e0446de96fc5000701e0f0",
+      "text": [
+        {
+          "text": [
+            "Error"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0f4",
+      "discriminatorID": "66e0446de96fc5000701e0f3",
+      "text": [
+        {
+          "text": [
+            "This flow captures a users question and sends it to the OpenAI API"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0f7",
+      "discriminatorID": "66e0446de96fc5000701e0f6",
+      "text": [
+        {
+          "text": [
+            "",
+            {
+              "variableID": "response"
+            },
+            " "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    }
+  ],
+  "responseDiscriminators": [
+    {
+      "id": "66e0446de96fc5000701e0c3",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0c2",
+      "variantOrder": [
+        "66e0446de96fc5000701e0c4"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0c6",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0c5",
+      "variantOrder": [
+        "66e0446de96fc5000701e0c7"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0c9",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0c8",
+      "variantOrder": [
+        "66e0446de96fc5000701e0ca"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0cc",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0cb",
+      "variantOrder": [
+        "66e0446de96fc5000701e0cd"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0cf",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0ce",
+      "variantOrder": [
+        "66e0446de96fc5000701e0d0"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0d2",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0d1",
+      "variantOrder": [
+        "66e0446de96fc5000701e0d3"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0d5",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0d4",
+      "variantOrder": [
+        "66e0446de96fc5000701e0d6"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0d8",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0d7",
+      "variantOrder": [
+        "66e0446de96fc5000701e0d9"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0db",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0da",
+      "variantOrder": [
+        "66e0446de96fc5000701e0dc"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0de",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0dd",
+      "variantOrder": [
+        "66e0446de96fc5000701e0df"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0e1",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0e0",
+      "variantOrder": [
+        "66e0446de96fc5000701e0e2"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0e4",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0e3",
+      "variantOrder": [
+        "66e0446de96fc5000701e0e5"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0e7",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0e6",
+      "variantOrder": [
+        "66e0446de96fc5000701e0e8"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0ea",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0e9",
+      "variantOrder": [
+        "66e0446de96fc5000701e0eb"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0ed",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0ec",
+      "variantOrder": [
+        "66e0446de96fc5000701e0ee"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0f0",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0ef",
+      "variantOrder": [
+        "66e0446de96fc5000701e0f1"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0f3",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0f2",
+      "variantOrder": [
+        "66e0446de96fc5000701e0f4"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    },
+    {
+      "id": "66e0446de96fc5000701e0f6",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66e0446de96fc5000701e0f5",
+      "variantOrder": [
+        "66e0446de96fc5000701e0f7"
+      ],
+      "createdAt": "2024-09-10T13:06:54.000Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 281594,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:06:54.000Z",
+      "updatedByID": 281594
+    }
+  ],
+  "workflows": [
+    {
+      "id": "66e0446de96fc5000701e0c1",
+      "name": "Home",
+      "createdByID": 281594,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "655bd4cab52f58001242b541",
+      "assigneeID": null,
+      "description": null,
+      "createdAt": "2024-09-10T13:06:54.000Z",
+      "updatedAt": "2024-09-10T13:15:54.000Z",
+      "updatedByID": 281594
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "project": {
+    "type": "chat",
+    "name": "Electro (1)",
+    "image": "",
+    "teamID": "29kM2vapjo",
+    "members": [],
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 281594,
+    "updatedBy": 281594,
+    "apiPrivacy": "public",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "privacy": "private",
+    "_id": "66e0446d07c0b3b6adc81de5",
+    "updatedAt": "2024-09-10T13:14:30.329Z",
+    "knowledgeBase": {
+      "settings": {
+        "summarization": {
+          "model": "gpt-3.5-turbo",
+          "system": "You are an FAQ AI chat assistant. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences.",
+          "temperature": 0.1,
+          "mode": "prompt",
+          "prompt": ""
+        },
+        "chunkStrategy": {
+          "type": "recursive_text_splitter",
+          "size": 1200,
+          "overlap": 200
+        },
+        "search": {
+          "limit": 3,
+          "metric": "IP"
+        },
+        "embeddingModel": {
+          "model": "text-embedding-3-large",
+          "size": 1024
+        }
+      },
+      "documents": {}
+    },
+    "devVersion": "66e0446d07c0b3b6adc81de6",
+    "liveVersion": "66e0455039805972c9053d1e"
+  },
+  "_version": "1.2",
+  "variableStates": []
+}
